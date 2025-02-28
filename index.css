@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+    color: #181818;
+}
+
+body {
+    background-color: #000000;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+
+}
+
+.container {
+    padding-top: 80px;
+}
+
+
+.score {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    margin-top: 30px;
+    padding: 50px 40px 50px 40px;
+    width: 300px;
+    height: 300px;
+    color:#ffa500;
+    text-shadow: 8px 4px 0px #c02d00;;
+    font-size: 7em;
+    background-color: #161616;
+    text-align: center;
+    border-radius: 16px;
+    border: 10px solid rgb(48, 48, 48);
+    /*box-shadow: 3px 0px 30px #888888;*/
+    font-family: "Press Start 2P"
+}
+
+.team {
+    font-size: 3.5em;
+    color:white;
+    text-align: center;
+    font-family: "Press Start 2P";
+    font-weight: lighter;
+}
+
+.points {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding-top: 30px;
+    margin-bottom: 40px;
+    text-align: center;
+    font-family: "Press Start 2P";
+}
+
+button {
+    font-size: 25px;
+    padding: 30px 20px 30px 20px;
+    box-shadow: 2px rgb(155, 0, 0);
+    border-radius: 20px;
+    border: 10px solid  rgb(126, 184, 39);
+    background-color: greenyellow;
+    font-weight: bold;
+    font-family: "Press Start 2P";
+}
+
+.parent {
+    display: flex;
+    flex-direction: column;
+}
+
+.container2 {
+    margin-top: 10px;
+    text-align: center;
+}
+
+button:hover {
+    cursor: pointer;
+    transform: scale(0.90);
+    font-weight: normal;
+}
+
+#newGame-btn {
+    border-radius: 20px;
+    background: blue;
+    color: white;
+    font-size: 50px;
+    font-weight: bold;
+    padding: 35px 50px 35px 50px;
+    box-shadow: 2px rgb(155, 0, 0);
+    border: 10px solid rgb(1, 1, 114);
+
+}
